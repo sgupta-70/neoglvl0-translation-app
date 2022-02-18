@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+:root {
+    --primary: black;
+    --txt-color: whitesmoke;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kaushan Script', sans-serif;
+    height: 100vh;
+}
+
+#heading {
+    background-color: var(--primary);
+    color: var(--txt-color);
+    height: 80px;
+    padding: 10px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+    height: 70%;
+}
+
+#input-box {
+    display: block;
+    margin: 1rem;
+    height: 30%;
+    width: 40%;
+    font-family: inherit;
+    font-size: x-large;
+}
+
+#btn-translate {
+    margin: 1rem;
+    background-color: var(--primary);
+    color: var(--txt-color);
+    border: none;
+    padding: 10px;
+    font-family: inherit;
+    font-size: large;
+    border-radius: 5%;
+}
+
+h2 {
+    margin: 1rem;
+    font-size: xx-large;
+}
+
+#output-box {
+    display: block;
+    width: 40%;
+    height: 30%;
+    border: 1px solid var(--primary);
+    font-family: inherit;
+    font-size: large;
+}
+
+footer{
+    background-color: var(--primary);
+    color: var(--txt-color);
+    padding: 20px;
+    height: 15%;
+    text-align: center;
+    font-family: inherit;
+    font-size: large;
+}
